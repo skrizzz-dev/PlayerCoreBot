@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Doom Eternal",
+        "genre": "action",
+        "length": "medium",
+        "type": "AAA",
+        "description": "Динамический шутер от первого лица с быстрым геймплеем",
+        "image": "images/doom_eternal.jpg"
+    },
+    {
+        "title": "Resident Evil 4 remake",
+        "genre": "action",
+        "length": "long",
+        "type": "AAA",
+        "description": "Survival Хоррор, культовая игра с популярными персонажами",
+        "image": "images/"
+    }
+]
