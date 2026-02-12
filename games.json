@@ -1,5 +1,13 @@
 [
     {
+        "title": "Astro's Playroom",
+        "genre": "action",
+        "length": "short",
+        "type": "AAA",
+        "description": "Веселый 3D‑платформер про маленького робота, исследующего консоль PlayStation в поисках артефактов и ностальги",
+        "image": "images/astro's_playroom.jpg"
+    },
+    {
         "title": "Doom Eternal",
         "genre": "action",
         "length": "medium",
@@ -8,11 +16,38 @@
         "image": "images/doom_eternal.jpg"
     },
     {
-        "title": "Resident Evil 4 remake",
+        "title": "Resident Evil 4 Remake",
         "genre": "action",
         "length": "long",
         "type": "AAA",
         "description": "Survival Хоррор, культовая игра с популярными персонажами",
-        "image": "images/"
+        "image": "images/resident_evil_4_remake.jpg"
+    },
+    {
+        "title": "Katana Zero",
+        "genre": "action",
+        "length": "short",
+        "type": "indie",
+        "description": "Нео-нуар с рубящими ударами, временными петлями и разговорами с психотерапевтом",
+        "image": "images/katana_zero.jpg"
+    },
+    {
+        "title": "Roboquest",
+        "genre": "action",
+        "length": "medium",
+        "type": "indie",
+        "description": "Шутер-рогалик про боевых роботов. Огонь, скорость и перезапуски",
+        "image": "images/roboquest.jpg"
+    },
+    {
+        "title": "Hollow Knight",
+        "genre": "action",
+        "length": "long",
+        "type": "indie",
+        "description": "2D‑приключение про исследование подземного мира и сражения с насекомыми‑врагами",
+        "image": "images/hollow_knight.jpg"
+    }, 
+    {
+        
     }
 ]
