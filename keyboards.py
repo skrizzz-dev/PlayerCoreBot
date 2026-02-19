@@ -19,7 +19,7 @@ genre_keyboard = InlineKeyboardMarkup(
 lenght_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
         [InlineKeyboardButton(text="Короткая", callback_data="lenght_short")],
-        [InlineKeyboardButton(text="Средняя", callback_data="lenght_medium")]
+        [InlineKeyboardButton(text="Средняя", callback_data="lenght_medium")],
         [InlineKeyboardButton(text="Долгая", callback_data="lenght_long")]
     ]
 )

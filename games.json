@@ -8,12 +8,28 @@
         "image": "images/astro's_playroom.jpg"
     },
     {
+        "title": "Spider-Man: Miles Morales",
+        "genre": "action",
+        "length": "short",
+        "type": "AAA",
+        "description": "Динамичный супергеройский экшен про Майлза Моралеса с паутиной и электрическими способностями",
+        "image": "images/spider_man_miles_morales.jpg"
+    },
+    {
         "title": "Doom Eternal",
         "genre": "action",
         "length": "medium",
         "type": "AAA",
         "description": "Динамический шутер от первого лица с быстрым геймплеем",
         "image": "images/doom_eternal.jpg"
+    },
+    {
+        "title": "God of War (2018)",
+        "genre": "action",
+        "length": "medium",
+        "type": "AAA",
+        "description": "Эпическое приключение Кратоса и Атрея по скандинавской мифологии с жестокими боями",
+        "image": "images/god_of_war_2018.jpg"
     },
     {
         "title": "Resident Evil 4 Remake",
@@ -24,12 +40,28 @@
         "image": "images/resident_evil_4_remake.jpg"
     },
     {
+        "title": "The Last of Us Part II",
+        "genre": "action",
+        "length": "long",
+        "type": "AAA",
+        "description": "Эмоциональное приключение Элли с жестокими боями, стелсом и тяжёлыми моральными выборами",
+        "image": "images/the_last_of_us_part_II.jpg"
+    },
+    {
         "title": "Katana Zero",
         "genre": "action",
         "length": "short",
         "type": "indie",
         "description": "Нео-нуар с рубящими ударами, временными петлями и разговорами с психотерапевтом",
         "image": "images/katana_zero.jpg"
+    },
+    {
+        "title": "Cuphead",
+        "genre": "action",
+        "length": "short",
+        "type": "indie",
+        "description": "Безумно сложный платформер в стиле мультфильмов 1930-х с боссами",
+        "image": "images/cuphead.jpg"
     },
     {
         "title": "Roboquest",
@@ -40,14 +72,219 @@
         "image": "images/roboquest.jpg"
     },
     {
+        "title": "Hades",
+        "genre": "action",
+        "length": "medium",
+        "type": "indie",
+        "description": "Рогалик про побег из подземного мира с динамичными боями и крутым сюжетом",
+        "image": "images/hades.jpg"
+    },
+    {
         "title": "Hollow Knight",
         "genre": "action",
         "length": "long",
         "type": "indie",
-        "description": "2D‑приключение про исследование подземного мира и сражения с насекомыми‑врагами",
+        "description": "2D-приключение про исследование подземного мира и сражения с насекомыми‑врагами",
         "image": "images/hollow_knight.jpg"
     }, 
     {
-        
+        "title": "Dead Cells",
+        "genre": "action",
+        "length": "long",
+        "type": "indie",
+        "description": "Метроидвания-рогалик с быстрыми боями, прокачкой и бесконечными забегами",
+        "image": "images/dead_cells.jpg"
+    },
+    {
+        "title": "Resident Evil 3 Remake",
+        "genre": "horror",
+        "length": "short",
+        "type": "AAA",
+        "description": "Побег из города за Джил Валентайна с неубиваемым Немезисом",
+        "image": "images/resident_evil_3_remake.jpg"
+    },
+    {
+        "title": "Until Dawn",
+        "genre": "horror",
+        "length": "short",
+        "type": "AAA",
+        "description": "Интерактивный хоррор с выбором и подростками в горах",
+        "image": "images/until_dawn.jpg"
+    },
+    {
+        "title": "Resident Evil Village",
+        "genre": "horror",
+        "length": "medium",
+        "type": "AAA",
+        "description": "Деревня с вампирами, оборотнями и леди Димитреску",
+        "image": "images/resident_evil_village.jpg"
+    },
+    {
+        "title": "Dead Space Remake",
+        "genre": "horror",
+        "length": "medium",
+        "type": "AAA",
+        "description": "Ужас на космическом корабле с расчленением некроморфов",
+        "image": "images/dead_space_remake.jpg"
+    },
+    {
+        "title": "Dying Light 2",
+        "genre": "horror",
+        "length": "long",
+        "type": "AAA",
+        "description": "Паркур и зомби в открытом мире с выбором и ночными кошмарами",
+        "image": "images/dying_light_2.jpg"
+    },
+    {
+        "title": "Silent Hill 2 Remake",
+        "genre": "horror",
+        "length": "long",
+        "type": "AAA",
+        "description": "Психологический хоррор с туманом и внутренними демонами",
+        "image": "images/silent_hill_2_remake.jpg"
+    },
+    {
+        "title": "Little Nightmares",
+        "genre": "horror",
+        "length": "short",
+        "type": "indie",
+        "description": "Мрачный платформер про девочку в плаще среди великанов",
+        "image": "images/little_nightmares.jpg"
+    },
+    {
+        "title": "Doki Doki Literature Club",
+        "genre": "horror",
+        "length": "short",
+        "type": "indie",
+        "description": "Визуальная новелла про литературный клуб, которая превращается в психологический кошмар",
+        "image": "images/ddlc.jpg"
+    },
+    {
+        "title": "Outlast",
+        "genre": "horror",
+        "length": "medium",
+        "type": "indie",
+        "description": "Побег из психбольницы без оружия, только камера и психи",
+        "image": "images/outlast.jpg"
+    }, 
+    {
+        "title": "Amnesia: The Dark Descent",
+        "genre": "horror",
+        "length": "medium",
+        "type": "indie",
+        "description": "Замок, безумие и монстры в темноте",
+        "image": "images/amnesia.jpg"
+    },
+    {
+        "title": "Darkwood",
+        "genre": "horror",
+        "length": "long",
+        "type": "indie",
+        "description": "Выживание в жутком лесу с крафтом и ночными кошмарами",
+        "image": "images/darkwood.jpg"
+    },
+    {
+        "title": "Pathologic 2",
+        "genre": "horror",
+        "length": "long",
+        "type": "indie",
+        "description": "Сюрреалистичное выживание в городе с чумой и тяжёлыми выборами",
+        "image": "images/pathologic_2.jpg"
+    },
+    {
+        "title": "Titanfall 2",
+        "genre": "shooter",
+        "length": "short",
+        "type": "AAA",
+        "description": "Молниеносная кампания с паркуром, роботами и идеальной стрельбой",
+        "image": "images/titanfall_2.jpg"
+    },
+    {
+        "title": "Call of Duty: Modern Warfare (2019)",
+        "genre": "shooter",
+        "length": "short",
+        "type": "AAA",
+        "description": "Киношный, плотный, современный военный шутер",
+        "image": "images/call_of_duty_modern_warfare_2019.jpg"
+    },
+    {
+        "title": "DOOM (2016)",
+        "genre": "shooter",
+        "length": "medium",
+        "type": "AAA",
+        "description": "Быстрый темп, металл, демоны и идеальный геймплей",
+        "image": "images/doom_2016.jpg"
+    },
+    {
+        "title": "Wolfenstein: The New Order",
+        "genre": "shooter",
+        "length": "medium",
+        "type": "AAA",
+        "description": "Альтернативная история, крутой сюжет и сочная стрельба",
+        "image": "images/wolfenstein_the_new_order.jpg"
+    },
+    {
+        "title": "Borderlands 3",
+        "genre": "shooter",
+        "length": "long",
+        "type": "AAA",
+        "description": "Лутер‑шутер с юмором, миллионом пушек и кооперативом",
+        "image": "images/borderlands_3.jpg"
+    },
+    {
+        "title": "Battlefield 1",
+        "genre": "shooter",
+        "length": "long",
+        "type": "AAA",
+        "description": "Великая война, масштабные бои и шикарная атмосфера",
+        "image": "images/battlefield_1.jpg"
+    },
+    {
+        "title": "Postal: Brain Damaged",
+        "genre": "shooter",
+        "length": "short",
+        "type": "indie",
+        "description": "Безумный ретро‑шутер с сюрреализмом и фирменным юмором Postal",
+        "image": "images/postal_brain_damaged.jpg"
+    },
+    {
+        "title": "Dusk",
+        "genre": "shooter",
+        "length": "short",
+        "type": "indie",
+        "description": "Лучший ретро‑шутер последних лет - быстрый и хардкорный",
+        "image": "images/dusk.jpg"
+    }, 
+    {
+        "title": "ULTRAKILL",
+        "genre": "shooter",
+        "length": "medium",
+        "type": "indie",
+        "description": "Ультра-быстрый шутер со стилем дума, сложные враги и крутой саундтрек",
+        "image": "images/ultrakill.jpg"
+    },
+    {
+        "title": "Blood West",
+        "genre": "shooter",
+        "length": "medium",
+        "type": "indie",
+        "description": "Мрачный стелс‑шутер‑хоррор в проклятом вестерне",
+        "image": "images/blood_west.jpg"
+    },
+    {
+        "title": "Enter the Gungeon",
+        "genre": "shooter",
+        "length": "long",
+        "type": "indie",
+        "description": "Рогалик‑шутер с тонной оружия, высокой сложностью и огромным количеством контента",
+        "image": "images/enter_the_gungeon.jpg"
+    },
+    {
+        "title": "Project Warlock II",
+        "genre": "shooter",
+        "length": "long",
+        "type": "indie",
+        "description": "Ретро‑шутер с большими уровнями и долгими прохождениями",
+        "image": "images/project_warlock_II.jpg"
     }
 ]
