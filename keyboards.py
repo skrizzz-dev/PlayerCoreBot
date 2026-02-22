@@ -37,3 +37,10 @@ def favorite_keyboard(title):
             [InlineKeyboardButton(text="В избранное ❤️", callback_data=f"add_{title}")]
         ]
     )
+    
+def remove_keyboard(title):
+    return InlineKeyboardMarkup(
+        inline_keyboard=[
+            [InlineKeyboardButton(text="Удалить игру ❌", callback_data=f"remove_{title}")]
+        ]
+    )

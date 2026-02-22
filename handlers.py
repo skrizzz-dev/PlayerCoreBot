@@ -2,7 +2,7 @@ from aiogram.types import CallbackQuery, FSInputFile, Message
 from aiogram.filters import Command
 from aiogram import F
 from database import add_favorite, get_favorites, remove_favorite
-from keyboards import start_keyboard, genre_keyboard, length_keyboard, type_keyboard, favorite_keyboard
+from keyboards import start_keyboard, genre_keyboard, length_keyboard, type_keyboard, favorite_keyboard, remove_keyboard
 import json, random
 
 
@@ -35,9 +35,15 @@ def register_handlers(dp):
         if not favorites:
             await message.answer("Избранное пуста, добавляй игры 🎮")
         else:
-            await message.answer(f"Список добавленных игр:\n" + "\n".join(favorites))
+            for title in favorites:
+                await message.answer(title, reply_markup=remove_keyboard(title))
             
-    
+    @dp.callback_query(F.data.startswith("remove_"))
+    async def remove_from_favorite(callback: CallbackQuery):
+        title = callback.data.replace("remove_", "")
+        remove_favorite(callback.from_user.id, title)
+        await callback.answer(f"'{title}' Удалено ❌")
+        
  
     @dp.callback_query(F.data.startswith("genre_"))
     async def genre_selected(callback: CallbackQuery):
