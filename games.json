@@ -286,5 +286,165 @@
         "type": "indie",
         "description": "Ретро‑шутер с большими уровнями и долгими прохождениями",
         "image": "images/project_warlock_II.jpg"
+    },
+    {
+        "title": "Mortal Kombat 11",
+        "genre": "fighting",
+        "length": "",
+        "type": "",
+        "description": "Жестокий файтинг с кинематографичными добиваниями и богатым сюжетом",
+        "image": "images/mortal_kombat_11.jpg"
+    },
+    {
+        "title": "Street Fighter 6",
+        "genre": "fighting",
+        "length": "",
+        "type": "",
+        "description": "Классический файтинг с новыми механиками и открытым миром",
+        "image": "images/street_fighter_6.jpg"
+    },
+    {
+        "title": "Tekken 8",
+        "genre": "fighting",
+        "length": "",
+        "type": "",
+        "description": "Трёхмерный файтинг с глубокой боевой системой и зрелищными боями",
+        "image": "images/tekken_8.jpg"  
+    },
+    {
+        "title": "Injustice 2",
+        "genre": "fighting",
+        "length": "",
+        "type": "",
+        "description": "Файтинг с супергероями DC, прокачкой персонажей и отличным сюжетом",
+        "image": "images/injustice_2.jpg"
+    },
+    {
+        "title": "Dragon Ball FighterZ",
+        "genre": "fighting",
+        "length": "",
+        "type": "",
+        "description": "Командный файтинг по вселенной Dragon Ball с мультяшной графикой",
+        "image": "images/dragon_ball_fighterz.jpg"
+    },
+    {
+        "title": "JoJo's Bizarre Adventure: Heritage for the Future",
+        "genre": "fighting",
+        "length": "",
+        "type": "",
+        "description": "Культовый аркадный файтинг по манге JoJo, где каждый персонаж сражается с помощью своего стенда",
+        "image": "images/jojo's_bizarre_adventure_heritage_for_the_future.jpg"
+    },
+    {
+        "title": "Soulcalibur VI",
+        "genre": "fighting",
+        "length": "",
+        "type": "",
+        "description": "Файтинг с оружием, богатым ростером и редактором персонажей",
+        "image": "images/soulcalbur_vi.jpg"
+    },
+    {
+        "title": "Skullgirls",
+        "genre": "fighting",
+        "length": "",
+        "type": "",
+        "description": "Инди файтинг с нарисованной от руки анимацией и уникальными персонажами",
+        "image": "images/skullgirls.jpg"
+    },
+    {
+        "title": "Killer Instinct",
+        "genre": "fighting",
+        "length": "",
+        "type": "",
+        "description": "Быстрый комбо-файтинг с бесплатным базовым ростером",
+        "image": "images/killer_instinct.jpg"
+    },
+    {
+        "title": "Jump Force",
+        "genre": "fighting",
+        "length": "",
+        "type": "",
+        "description": "Файтинг с героями популярных манг - Наруто, Гоку, Луффи и другие популярные аниме герои",
+        "image": "images/jump_force.jpg"
+    },
+    {    
+        "title": "Forza Horizon 5",
+        "genre": "racing",
+        "length": "",
+        "type": "",
+        "description": "Открытый мир в Мексике с сотнями машин и ивентами",
+        "image": "images/forza_horizon_5.jpg"    
+    },
+    {    
+        "title": "Gran Turismo 7",
+        "genre": "racing",
+        "length": "",
+        "type": "",
+        "description": "Симулятор гонок с реалистичной физикой и огромным автопарком",
+        "image": "images/gran_turismo_7.jpg"    
+    },
+    {    
+        "title": "Need for Speed Heat",
+        "genre": "racing",
+        "length": "",
+        "type": "",
+        "description": "Уличные гонки днём и нелегальные ночью с полицией",
+        "image": "images/need_for_speed_heat.jpg"    
+    },
+    {
+        "title": "F1 24",
+        "genre": "racing",
+        "length": "",
+        "type": "",
+        "description": "Официальный симулятор Формулы 1 с карьерным режимом",
+        "image": "images/f1_24.jpg"     
+    },
+    {
+        "title": "Beach Buggy Racing 2",
+        "genre": "racing",
+        "length": "",
+        "type": "",
+        "description": "Аркадные гонки на багги по экзотическим трассам с оружием и бонусами в стиле Mario Kart",
+        "image": "images/beach_buggy_racing_2.jpg"     
+    },
+    {
+        "title": "Sonic Racing (Team Sonic Racing)",
+        "genre": "racing",
+        "length": "",
+        "type": "",
+        "description": "Командные аркадные гонки с персонажами Sonic где важна командная работа а не только скорость",
+        "image": "images/sonic_racing.jpg"     
+    },
+    {
+        "title": "Mario Kart 8 Deluxe",
+        "genre": "racing",
+        "length": "",
+        "type": "",
+        "description": "Весёлые аркадные гонки с предметами и яркими трассами",
+        "image": "images/mario_kart_8_deluxe.jpg"     
+    },
+    {
+        "title": "Dirt Rally 2.0",
+        "genre": "racing",
+        "length": "",
+        "type": "",
+        "description": "Реалистичный раллийный симулятор с грязью и опасными трассами",
+        "image": "images/dirt_rally_2.jpg"     
+    },
+    {
+        "title": "The Crew Motorfest",
+        "genre": "racing",
+        "length": "",
+        "type": "",
+        "description": "Открытый мир на Гавайях с разными видами транспорта",
+        "image": "images/the_crew_motorfest.jpg"     
+    },
+    {
+        "title": "Midnight Club: Los Angeles",
+        "genre": "racing",
+        "length": "",
+        "type": "",
+        "description": "Агрессивные уличные гонки по ночному Лос-Анджелесу",
+        "image": "images/midnight_club_los_angeles.jpg"     
     }
 ]

@@ -42,14 +42,27 @@ def register_handlers(dp):
     async def remove_from_favorite(callback: CallbackQuery):
         title = callback.data.replace("remove_", "")
         remove_favorite(callback.from_user.id, title)
-        await callback.answer(f"'{title}' Удалено ❌")
-        
+        await callback.answer(f"'{title}' Удалено ❌")       
  
     @dp.callback_query(F.data.startswith("genre_"))
     async def genre_selected(callback: CallbackQuery):
         await callback.answer()
         genre = callback.data.replace("genre_", "")
         user_data[callback.from_user.id] = {"genre": genre} 
+        
+        if genre in ["fighting", "racing"]:
+            with open("games.json", "r", encoding="utf-8") as f:
+                games = json.load(f)
+            matches = [g for g in games if g["genre"] == genre]
+            if matches:
+                game = random.choice(matches)
+                await callback.message.answer_photo(
+                    photo=FSInputFile(game["image"]),
+                    caption=f"название: {game['title']}\n\n{game['description']}",
+                    reply_markup=favorite_keyboard(game["title"])
+                )
+            return 
+                
         await callback.message.answer("Выбери длительность прохождения игры", reply_markup=length_keyboard)
         
     @dp.callback_query(F.data.startswith("length_"))
